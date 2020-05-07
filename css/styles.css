@@ -1,0 +1,35 @@
+body {
+  background-color: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+  text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.mail:hover,
+.tel:hover {
+  color: #2196f3;
+}
+/* колір основного текста #212121  */
+/* колір вториннго текста #757575 */
+/* білий колір текста #FFFFFF */
+/* колір акцента (синя кнопка) #2196F3 */
+/* колір фону Наша команда #F5F4FA */
+/* колір футера #2F303A */
