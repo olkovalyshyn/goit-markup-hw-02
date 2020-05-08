@@ -1,5 +1,6 @@
 body {
   background-color: #ffffff;
+  color: #212121;
 }
 
 li {
@@ -26,6 +27,21 @@ li {
 .mail:hover,
 .tel:hover {
   color: #2196f3;
+}
+
+/* hero */
+.hero-title,
+.hero-button {
+  color: #d6d6d6;
+}
+
+/* section */
+.section .section-details {
+  color: #757575;
+}
+
+.sections-subp {
+  color: #d6d6d6;
 }
 /* колір основного текста #212121  */
 /* колір вториннго текста #757575 */
