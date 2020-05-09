@@ -1,48 +1,79 @@
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --white-color: #ffffff;
+  --hover-focus-color: #2196f3;
+}
+
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 li {
   list-style: none;
 }
 
-.logo {
-  color: #000000;
+/* logo */
+.logo,
+.link,
+.mail,
+.tel {
   text-decoration: none;
 }
 .logo-web {
   color: #2196f3;
 }
+.logo-studio {
+  color: #000000;
+}
 
 /* site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
+}
+
+.tel,
+.mail {
+  color: var(--second-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 
 .mail:hover,
 .tel:hover {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 
 /* hero */
 .hero-title,
 .hero-button {
-  color: #d6d6d6;
+  color: var(--white-color);
+  background-color: grey;
 }
 
 /* section */
 .section .section-details {
-  color: #757575;
+  color: var(--second-text-color);
 }
 
 .sections-subp {
-  color: #d6d6d6;
+  color: var(--white-color);
+  background-color: grey;
 }
+
+.sections-subp > .mailtel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.developers {
+  color: rgba(255, 255, 255, 0.4);
+  background-color: grey;
+}
+/* footer */
+
 /* колір основного текста #212121  */
 /* колір вториннго текста #757575 */
 /* білий колір текста #FFFFFF */
