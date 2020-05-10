@@ -2,11 +2,14 @@
   --primary-text-color: #212121;
   --second-text-color: #757575;
   --white-color: #ffffff;
-  --hover-focus-color: #2196f3;
+  --hover-logo-web-color: #2196f3;
+  --logo-studio-color: #000000;
+  --temporary-background-color: #808080;
+  --button-background-color: #f5f4fa;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--primary-text-color);
 }
 
@@ -22,10 +25,10 @@ li {
   text-decoration: none;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--hover-logo-web-color);
 }
 .logo-studio {
-  color: #000000;
+  color: var(--logo-studio-color);
 }
 
 /* site-nav */
@@ -39,19 +42,19 @@ li {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--hover-focus-color);
+  color: var(--hover-logo-web-color);
 }
 
 .mail:hover,
 .tel:hover {
-  color: var(--hover-focus-color);
+  color: var(--hover-logo-web-color);
 }
 
 /* hero */
 .hero-title,
 .hero-button {
   color: var(--white-color);
-  background-color: grey;
+  background-color: var(--temporary-background-color);
 }
 
 /* section */
@@ -61,22 +64,41 @@ li {
 
 .sections-subp {
   color: var(--white-color);
-  background-color: grey;
+  background-color: var(--temporary-background-color);
 }
 
+/* footer */
 .sections-subp > .mailtel {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .developers {
   color: rgba(255, 255, 255, 0.4);
-  background-color: grey;
+  background-color: var(--temporary-background-color);
 }
-/* footer */
 
-/* колір основного текста #212121  */
-/* колір вториннго текста #757575 */
-/* білий колір текста #FFFFFF */
-/* колір акцента (синя кнопка) #2196F3 */
-/* колір фону Наша команда #F5F4FA */
-/* колір футера #2F303A */
+/* ПОРТФОЛІО */
+
+.link-projects {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.filter-name {
+  color: var(--second-text-color);
+}
+
+.filter-details {
+  color: var(--white-color);
+  background-color: var(--temporary-background-color);
+}
+
+.button .button-portfolio {
+  color: var(--primary-text-color);
+}
+
+.button .button-portfolio:hover,
+.button .button-portfolio:focus {
+  color: var(--white-color);
+  background-color: var(--hover-logo-web-color);
+}
