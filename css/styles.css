@@ -6,6 +6,7 @@
   --logo-studio-color: #000000;
   --temporary-background-color: #808080;
   --button-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
 }
 
 body {
@@ -106,6 +107,18 @@ button {
   text-align: center;
 }
 
+.section-soft {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.soft-details {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-text-color);
+}
+
 .section-work {
   color: var(--white-color);
   background-color: var(--temporary-background-color);
@@ -129,13 +142,16 @@ button {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  color: var(--second-text-color);
 }
 
 /* footer */
 
+.footer {
+  background-color: var(--footer-background-color);
+}
 .address {
   color: var(--white-color);
-  background-color: var(--temporary-background-color);
 
   font-size: 14px;
   line-height: 1.71;
@@ -150,11 +166,14 @@ button {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  color: var(--white-color);
 }
 
 .developers {
   color: rgba(255, 255, 255, 0.4);
-  background-color: var(--temporary-background-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 
 /* ПОРТФОЛІО */
@@ -183,7 +202,7 @@ button {
   background-color: var(--temporary-background-color);
 
   font-size: 18px;
-  line-height: 1.56x;
+  line-height: 1.56;
 }
 
 .button .button-portfolio {
